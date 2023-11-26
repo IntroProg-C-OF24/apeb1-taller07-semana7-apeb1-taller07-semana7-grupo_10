@@ -5,7 +5,7 @@ public class Ejercicio3 {
     int  contador=1; String nombre; int numDias; double costDia;double total;
     Scanner teclado = new Scanner(System.in);
     while (contador <= 4){
-        System.out.println("Ingrese el nombre de los empleados: ");
+        System.out.println("Ingrese el nombre del  empleado: ");
         nombre = teclado.next();
         System.out.println("Ingrese el numero de dias trabajados: ");
         numDias = teclado.nextInt();
@@ -19,9 +19,7 @@ public class Ejercicio3 {
         System.out.println("Ingresos totales: "+total);
         System.out.println("-------------------------------");
         contador++;
-    }
-        
-        
+    }    
    }   
  }
     
