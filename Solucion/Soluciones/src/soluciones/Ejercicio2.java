@@ -7,9 +7,6 @@ public class Ejercicio2 {
           System.out.println(numerador+ "/"+denominador);
             numerador = numerador + 5;
             denominador = denominador + 2 ;   
-        }
-           
-        
+        }     
     }
- 
 }
